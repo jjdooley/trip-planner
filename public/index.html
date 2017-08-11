@@ -6,6 +6,55 @@
     <script src="./bundle.js" defer></script>
   </head>
   <body>
+    <header>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" id="navbar-image" href="#">
+                <img alt="Brand" src="http://i.imgur.com/WbMOfMl.png">
+            </a>
+            <a class="navbar-brand" href="#">Trip Planner</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="inactive"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li class="inactive"><a href="#">About<span class="sr-only">(current)</span></a></li>
+            <li class="inactive"><a href="#">Contact<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </header>
+    <ul class="list-group">
+      <li href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Hotels</h4>
+         <select class="dropdown-item">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+      </li>
+      <li href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Activities</h4>
+        <select class="dropdown-item">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+      </li>
+      <li href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Restaurants</h4>
+        <select class="dropdown-item">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+      </li>
+    </ul>
+
     <div id="map"></div>
   </body>
 </html>

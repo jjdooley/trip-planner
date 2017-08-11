@@ -8,3 +8,34 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+#navbar-image {
+    padding: 6px 0px 0px 0px;
+}
+
+.container {
+    background-color: gray;
+    float: right;
+}
+
+.list-group{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 20%;
+}
+
+.list-group-item.active {
+    padding-bottom: 13px;
+//     border-style: solid;
+//     border-bottom: medium double black; 
+//     border-top: thick none;
+//     border-right: thick none;
+//     border-left: thick none;
+    
+}
+
+.dropdown-item{
+    width: 100%;
+    font-style: 'Comic Sans MS';
+}
